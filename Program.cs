@@ -4,9 +4,9 @@
     {
         public static void Main(string[] args)
         {
-            
-            Console.WriteLine("Welcome to Snake and Ladder Problem");
-          
+            Random rnd = new Random();
+            int dice = rnd.Next(1, 7);
+            Console.WriteLine("Number on the dice is: " + dice);
         }
     }
 }
